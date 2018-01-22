@@ -1,0 +1,20 @@
+{
+  "name": "HTML",
+  "homepage": "https://github.com/Raphael-Massagardi/Raphael",
+  "authors": [
+    "raphael <raphael_lima2012@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^4.0.0"
+  }
+}
