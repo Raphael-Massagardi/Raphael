@@ -6,7 +6,7 @@ group: components
 toc: true
 ---
 
-## Examples
+//## Examples
 
 Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight **required** contextual classes (e.g., `.alert-success`). For inline dismissal, use the [alerts jQuery plugin](#dismissing).
 
@@ -20,7 +20,7 @@ Alerts are available for any length of text, as well as an optional dismiss butt
 {% capture callout-include %}{% include callout-warning-color-assistive-technologies.md %}{% endcapture %}
 {{ callout-include | markdownify }}
 
-### Link color
+//### Link color
 
 Use the `.alert-link` utility class to quickly provide matching colored links within any alert.
 
@@ -31,7 +31,7 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
 </div>{% endfor %}
 {% endexample %}
 
-### Additional content
+// Additional content
 
 Alerts can also contain additional HTML elements like headings, paragraphs and dividers.
 
@@ -45,7 +45,7 @@ Alerts can also contain additional HTML elements like headings, paragraphs and d
 {% endexample %}
 
 
-### Dismissing
+//### Dismissing
 
 Using the alert JavaScript plugin, it's possible to dismiss any alert inline. Here's how:
 
@@ -66,9 +66,9 @@ You can see this in action with a live demo:
 </div>
 {% endexample %}
 
-## JavaScript behavior
+//## JavaScript behavior
 
-### Triggers
+//### Triggers
 
 Enable dismissal of an alert via JavaScript:
 
@@ -86,7 +86,7 @@ Or with `data` attributes on a button **within the alert**, as demonstrated abov
 
 Note that closing an alert will remove it from the DOM.
 
-### Methods
+//### Methods
 
 | Method | Description |
 | --- | --- |
@@ -96,7 +96,7 @@ Note that closing an alert will remove it from the DOM.
 
 {% highlight js %}$(".alert").alert('close'){% endhighlight %}
 
-### Events
+//### Events
 
 Bootstrap's alert plugin exposes a few events for hooking into alert functionality.
 
